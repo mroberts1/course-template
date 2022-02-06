@@ -1,14 +1,14 @@
 ---
 layout: home
 ---
+{% assign date = '2020-04-13T10:20:00Z' %}
 
-Make Jelly site have a GitBook look!
+- Original date - {{ date }}
+- With timeago filter - {{ date | timeago }}
 
 ## Demo
 
 Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
-
-[![Jekyll Themes](https://img.shields.io/badge/featured%20on-JekyllThemes-red.svg)](https://jekyll-themes.com/jekyll-gitbook/)
 
 ## Why Jekyll with GitBook
 
